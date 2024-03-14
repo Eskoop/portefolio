@@ -13,22 +13,7 @@
     <link rel="stylesheet" href="asset/style.css" />
   </head>
   <body>
-    <header class="bg-white">
-      <div class="d-flex justify-content-between w-75 m-auto">
-        <div class="row">
-          <h3>AKHTAR HASSAN</h3>
-        </div>
-
-        <div class="row">
-          <nav class="d-flex my-auto">
-            <p><a href="#" class="me-3">Accueil</a></p>
-            <p><a href="">A propos</a></p>
-            <p><a href="" class="mx-3">Projet</a></p>
-            <p><a href="" class="ms-3">Contact</a></p>
-          </nav>
-        </div>
-      </div>
-    </header>
+    <?php require_once 'Nav/nav.php' ?>
 
     <main>
       <section class="section-1">
@@ -51,7 +36,7 @@
               Je suis un Developpeur Web FullStack qui contruit des sites que ça
               soit en FrondEnd que en BackEnd. Découvez quelques-unes de mes
               réalisation dans la rubrique projets <br />
-              J'aime aussi partager du contenu lié aà ce que j'ai appris au
+              J'aime aussi partager du contenu lié à ce que j'ai appris au
               files des ans dans le developpement Web afin qu'il puisse aider
               d'autres personnes de la communauté de développment. N'hésitez pas
               à vous connecter ou à me suivre sur mon <a href="https://www.linkedin.com/in/hassan-akhtar-a58b75255/">Linkedin</a> où
@@ -63,7 +48,7 @@
               contacter.
             </p>
 
-            <p class="mx-5"><a href="" class="btn btn-primary">CONTACT</a></p>
+            <p class="mx-5"><a href="Contact.php" class="btn btn-primary">CONTACT</a></p>
           </div>
           <div class="col-6 mx-5">
             <h3 class="py-4">Mes compétences</h3>
@@ -86,18 +71,16 @@
         <p class="text-center">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai créés, chaque projet contenant sa propre étude de cas</p>
       </section>
     </main>
-    <footer>
-      <div>
-        <div>w
+    <footer class="text-center bg-warning">
+      <div class="d-flex">
+        <div class="col-6">
           <h4>AKHTAR HASSAN</h4>
           <p>Je suis un developpeur web/web mobile full stack.</p>
         </div>
-        <div>
+        <div class="col-6">
           <h3>SOCIAL</h3>
-          <p>Linkedin</p>
-          <p>GITHUB</p>
-          <p></p>
-          <p></p>
+          <p><a href="https://www.linkedin.com/in/hassan-akhtar-a58b75255/">Linkedin</a></p>
+          <p><a href="https://github.com/Eskoop?tab=repositories">GITHUB</a></p>
         </div>
       </div>
     </footer>
