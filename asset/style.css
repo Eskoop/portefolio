@@ -6,6 +6,14 @@ body{
 }
 a{
     text-decoration: none;
+    color: #666066;
+
+}
+
+.header{
+    padding: 10px 0 5px 0;
+   
+    background-color: white;
 }
 
 .section-1{

@@ -15,15 +15,15 @@
         <form action="envoie_email.php" method="POST">
             <div class="mb-3">
                 <label for="nom" class="form-label">Nom</label>
-                <input type="text" class="form-control" id="nom" placeholder="Nom">
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
             </div>
             <input type="submit" value="Envoyer">
 
