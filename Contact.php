@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php require_once 'Nav/nav.php'; ?>
+    <?php require_once 'Nav/nav.php';?>
     <main>
         <form action="envoie_email.php" method="POST">
             <div class="mb-3">

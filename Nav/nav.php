@@ -7,7 +7,7 @@
         <li><a href="index.php"  >Accueil</a></li>
         <li><a href="">A Propos</a></li>
         <li><a href="">Projet</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li><a href="Contact.php">Contact</a></li>
         
       </ul>
     </div>
