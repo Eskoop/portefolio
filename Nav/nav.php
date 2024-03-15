@@ -4,18 +4,17 @@
 
 
 <header class="header bg-white">
-  <div class="d-flex justify-content-between w-75 m-auto">
-    <div class="row">
-      <h3>AKHTAR HASSAN</h3>
+  <nav class="navbar">
+    <a href="index.php" class="logo">AKHTAR Hassan</a>
+    <div class="nav-links mobile-menu">
+      <ul>
+        <li><a href="index.php"  class="active">Accueil</a></li>
+        <li><a href="">A Propos</a></li>
+        <li><a href="">Projet</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        
+      </ul>
     </div>
-
-    <div class="row">
-      <nav class="d-flex my-auto">
-        <p><a href="index.php" class="me-3">Accueil</a></p>
-        <p><a href="">A propos</a></p>
-        <p><a href="" class="mx-3">Projet</a></p>
-        <p><a href="Contact.php" class="ms-3">Contact</a></p>
-      </nav>
-    </div>
-  </div>
+    <img src="../../portefolio/asset/image/menu-btn.png" alt="menu burger" class="menu-hamburger">
+  </nav>
 </header>

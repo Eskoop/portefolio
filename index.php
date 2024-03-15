@@ -30,8 +30,8 @@
         compétences actuelles principalement en termes de programmation et de
         technologie
       </p>
-      <div class="d-flex div-1">
-        <div class="col-6 mx-5">
+      <div class="d-lg-flex div-1">
+        <div class="col-lg-6 mx-5">
           <h3 class="mx-5 py-4">Pour me mieux me connaitre</h3>
           <p class="mx-5">
             Je suis un Developpeur Web FullStack qui contruit des sites que ça
@@ -51,7 +51,7 @@
 
           <p class="mx-5"><a href="Contact.php" class="btn btn-primary">CONTACT</a></p>
         </div>
-        <div class="col-6 mx-5">
+        <div class="col-lg-6 mx-5">
           <h3 class="py-4">Mes compétences</h3>
           <div class="d-flex flex-wrap justify-content-center">
             <div class="competence">HTML</div>
@@ -91,6 +91,7 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
