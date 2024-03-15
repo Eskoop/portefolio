@@ -10,9 +10,11 @@ body{
 }
 a{
     text-decoration: none;
-    color: #666066;
+    /* color: #666066; */
 
 }
+
+/* Header */
 header{
     height: 75px;
     width: 100%;
@@ -41,9 +43,7 @@ header{
 .navbar .nav-links ul li{
     margin: 0 25px;
 }
-.navbar .nav-links ul li.active a{
-    color:  red;
-}
+
 .navbar .menu-hamburger{
     display: none;
     position: absolute;
@@ -52,7 +52,7 @@ header{
     width: 35px;
     background-color: #666;
 } 
-
+/* Fin de la nav */
 
 
 
