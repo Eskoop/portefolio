@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $destinataire = "akhtar.hassan1992@gmail.com"; // Remplacez par votre adresse e-mail
+    $destinataire = "akhtar.hassan1992@gmail.com"; 
 
     $sujet = "Nouveau message de contact depuis votre site";
 
@@ -15,8 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $nom <$email>";
 
     if (mail($destinataire, $sujet, $contenu, $headers)) {
-        echo "Votre message a bien été envoyé.";
+        echo "<script>alert('Votre message a bien été envoyé.');</script>";
     } else {
-        echo "Une erreur s'est produite lors de l'envoi du message.";
+        echo "<script>alert('Une erreur s'est produite lors de l'envoi du message.');</script>";
     }
 }
