@@ -27,5 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 if (!empty($message)) {
     echo "<script>alert('$message');</script>";
+    header('Location: index.php');
 }
 ?>
