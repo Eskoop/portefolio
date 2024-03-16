@@ -1,4 +1,7 @@
 <?php
+
+$message = ' ';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nom = $_POST['nom'];
     $email = $_POST['email'];
@@ -15,8 +18,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $nom <$email>";
 
     if (mail($destinataire, $sujet, $contenu, $headers)) {
-        echo "<script>alert('Votre message a bien été envoyé.');</script>";
+        $message = "Votre message a bien été envoyé.";
     } else {
-        echo "<script>alert('Une erreur s'est produite lors de l'envoi du message.');</script>";
+        $message = "Une erreur s'est produite lors de l'envoi du message.";
     }
+
 }
+
+?>
