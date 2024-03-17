@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
   <!-- Lien CSS -->
-  <link rel="stylesheet" href="asset/style.css" />
+  <link rel="stylesheet" href="asset/style.css?v=1" />
   <link rel="stylesheet" href="asset/reset.css">
 </head>
 
@@ -83,21 +83,9 @@
   </main>
 
   <!-- Footer -->
-  <footer class="text-center bg-warning">
-    <div class="d-flex">
-      <div class="col-6">
-        <h4>AKHTAR HASSAN</h4>
-        <p>Je suis un developpeur web/web mobile full stack.</p>
-      </div>
-      <div class="col-6">
 
-        <!-- Partie social -->
-        <h3>SOCIAL</h3>
-        <p><a href="https://www.linkedin.com/in/hassan-akhtar-a58b75255/">Linkedin</a></p>
-        <p><a href="https://github.com/Eskoop?tab=repositories">GITHUB</a></p>
-      </div>
-    </div>
-  </footer>
+  <?php require_once 'footer/footer.php' ; ?>
+
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
