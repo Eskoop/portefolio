@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
   <!-- Lien CSS -->
-  <link rel="stylesheet" href="asset/style.css"/>
+  <link rel="stylesheet" href="asset/style.css" />
   <link rel="stylesheet" href="asset/reset.css">
 </head>
 
@@ -22,15 +22,17 @@
 
     <!-- Premiere section -->
     <section class="section-1">
-      <h1>Bonjour, je suis Hassan AKHTAR</h1>
-      <p>Je suis un developpeur web/web mobile full stack.</p>
-      <p class="btn btn-primary py-2 px-5">Projet</p>
+      <div>
+        <h1>Bonjour, je suis Hassan AKHTAR</h1>
+        <p>Je suis un developpeur web/web mobile full stack.</p>
+        <p class=""><a href="#project" class="btn btn-primary py-2 px-5">Projet</a></p>
+      </div>
     </section>
 
     <!-- Deuxieme section -->
-    <section class="text-center">
-      <h2>A propos de moi</h2>
-      <p>
+    <section class="section-2">
+      <h2 id="A-propos">A propos de moi</h2>
+      <p class="sect-2-p-1">
         Vous trouverez ici plus d'informations sur moi, ce que je fais et mes
         compétences actuelles principalement en termes de programmation et de
         technologie
@@ -54,7 +56,7 @@
             contacter.
           </p>
 
-          <p class="mx-5"><a href="Contact.php" class="btn btn-primary">CONTACT</a></p>
+          <p class="mx-5"><a href="Contact.php" class="btn btn-primary btn-contact">CONTACT</a></p>
         </div>
         <div class="col-lg-6 mx-5">
           <h3 class="py-4">Mes compétences</h3>
@@ -74,9 +76,9 @@
     </section>
 
     <!-- Troisieme section -->
-    <section>
-      <h3 class="text-center">PROJETS</h3>
-      <p class="text-center">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai créés, chaque projet contenant sa propre étude de cas</p>
+    <section class="section-3">
+      <h2 class="" id="project">PROJETS</h2>
+      <p class="">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai créés, chaque projet contenant sa propre étude de cas</p>
     </section>
   </main>
 
@@ -88,8 +90,8 @@
         <p>Je suis un developpeur web/web mobile full stack.</p>
       </div>
       <div class="col-6">
-        
-      <!-- Partie social -->
+
+        <!-- Partie social -->
         <h3>SOCIAL</h3>
         <p><a href="https://www.linkedin.com/in/hassan-akhtar-a58b75255/">Linkedin</a></p>
         <p><a href="https://github.com/Eskoop?tab=repositories">GITHUB</a></p>

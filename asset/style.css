@@ -21,7 +21,7 @@ header {
     width: 100%;
 }
 
-/* Nav */
+/************************* Nav ********************/
 .navbar {
     position: absolute;
     z-index: 9999;
@@ -66,23 +66,22 @@ header {
 .navbar .menu-hamburger {
     display: none;
     position: absolute;
-    top: 25px;
+    top: 20px;
     right: 50px;
     width: 35px;
-    background-color: #666;
+    
 }
-
-
 
 /* Fin de la nav */
 
 
+/*********************** Page INDEX ********************/
 
-
+/* PREMIERE SECTION */
 .section-1 {
     /* border: 1px solid black; */
     text-align: center;
-    height: 60vh;
+    height: 55vh;
     background-image: url(image/fond-aquarelle-peint-main-forme-ciel-nuages_24972-1095.avif);
     background-repeat: no-repeat;
     background-position: center;
@@ -91,9 +90,46 @@ header {
 
 }
 
+.section-1 div{
+    padding-top: 30px;
+}
+.section-1 div h1{
+    font-size: 3em;
+}
+.section-1 div p{
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+
+
+
+
+/* DEUXIEME SECTION */
+
+.section-2{
+    text-align: center;
+}
+.section-2 h2{
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+.section-2 .sect-2-p-1{
+    font-size: 1.1em;
+}
 .div-1 {
     width: 80%;
     margin: 0 auto;
+}
+.div-1 h3{
+    font-size: 1.5em;
+}
+
+.div-1 p {
+    font-size: 1.1em;
+}
+
+.btn-contact{
+    margin-top: 10px;
 }
 
 .competence {
@@ -106,8 +142,21 @@ header {
     font-weight: 600;
     color: #666;
 }
+/* TROISIEME SECTION */
+.section-3{
+    text-align: center;
+}
+.section-3 h2{
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+.section-3 p{
+    font-size: 1.1em;
+}
 
-/* page contact */
+
+
+/*********************** Page CONTACT **********************/
 
 .main-contact {
     height: 700px;
@@ -176,7 +225,7 @@ header {
         transition: all 0.5s ease;
     }
 
-    .nav-links.mobile-menu {
+    .mobile-menu {
         margin-left: 0;
     }
 
@@ -197,6 +246,8 @@ header {
     .navbar .nav-links ul li {
         margin: 25px 0;
     }
+
+    
 
 
 }
