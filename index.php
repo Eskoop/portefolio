@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8" />
@@ -50,7 +50,7 @@
             à vous connecter ou à me suivre sur mon <a href="https://www.linkedin.com/in/hassan-akhtar-a58b75255/">Linkedin</a> où
             je publie du contenu utile lié au développement et à la
             programmation Web <br />
-            Je suis ouert aux opportunité d'emploi où je peux contribuer ,
+            Je suis ouvert aux opportunité d'emploi où je peux contribuer ,
             apprendre et grandir. Si vous avez une opportunité qui correspond
             à mes compétences et à mon experience, n'hésiter pas à me
             contacter.
@@ -78,13 +78,32 @@
     <!-- Troisieme section -->
     <section class="section-3">
       <h2 class="" id="project">PROJETS</h2>
-      <p class="">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai créés, chaque projet contenant sa propre étude de cas</p>
+      <p class="sect3-p1">Vous trouverez ici quelques-uns des projets personnels et clients que j'ai créés, chaque projet contenant sa propre étude de cas</p>
+      <div class="div-sect3">
+        <div class="ronde01">
+          <a href="AKHTAR_TENGOKU/Home.php">
+            <div class="ronde-01">
+            </div>
+          </a>
+        </div>
+        <!-- <p>Tengoku</p> -->
+        <div class="ronde02">
+          <a href="#">
+            <div class="ronde-02">
+
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- <p>Tengoku</p> -->
+
     </section>
   </main>
 
   <!-- Footer -->
 
-  <?php require_once 'footer/footer.php' ; ?>
+  <?php require_once 'footer/footer.php'; ?>
 
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

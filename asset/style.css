@@ -150,19 +150,75 @@ header {
 }
 
 /* TROISIEME SECTION */
-.section-3 {
-    text-align: center;
-}
 
 .section-3 h2 {
     font-size: 2.5em;
     margin: 10px 0;
+    text-align: center;
 }
 
-.section-3 p {
+.section-3 .sect3-p1 {
     font-size: 1.1em;
-}
+    text-align: center;
 
+}
+.div-sect3{
+    padding: 20px 0;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.ronde01 {
+    border: #000 solid 1px;
+    width: 200px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 200px;
+    border-radius: 50%; /* Utilisez 50% pour créer une forme ronde */
+    background-color: #BC002D; /* Couleur de fond */
+    position: relative;
+}
+.ronde-01 {
+    
+    border: #000 solid 1px;
+    width: 180px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 180px;
+    border-radius: 50%; /* Utilisez 50% pour créer une forme ronde */
+    background-color: #f0f0f0; /* Couleur de fond */
+    /* margin: auto; */
+    position: absolute; /* Position absolue pour pouvoir centrer */
+    top: 50%; /* Placer le haut de la div à 50% de la hauteur parent */
+    left: 50%; /* Placer la gauche de la div à 50% de la largeur parent */
+    transform: translate(-50%, -50%);
+    background-image: url(image/Logo_finale_Detourer4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+.ronde02 {
+    border: #000 solid 1px;
+    width: 200px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 200px;
+    border-radius: 50%; /* Utilisez 50% pour créer une forme ronde */
+    background-color: #2A30A2; /* Couleur de fond */
+    position: relative;
+}
+.ronde-02 {
+    
+    border: #000 solid 1px;
+    width: 180px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 180px;
+    border-radius: 50%; /* Utilisez 50% pour créer une forme ronde */
+    background-color: #ffffff; /* Couleur de fond */
+    /* margin: auto; */
+    position: absolute; /* Position absolue pour pouvoir centrer */
+    top: 50%; /* Placer le haut de la div à 50% de la hauteur parent */
+    left: 50%; /* Placer la gauche de la div à 50% de la largeur parent */
+    transform: translate(-50%, -50%);
+    background-image: url(image/1_LOGO.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
 
 
 /*********************** Page CONTACT **********************/
