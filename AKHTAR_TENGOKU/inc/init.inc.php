@@ -2,9 +2,9 @@
 // 1- Connexion à la BDD
 $pdoManga = new PDO(
     'mysql:host=localhost;
-    dbname=tengoku_test', 
-    'root',
-    '',
+    dbname=u674268331_Tengoku', 
+    'u674268331_HassanAKHTAR',
+    'Judaime29',
     array(
         PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING,
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
