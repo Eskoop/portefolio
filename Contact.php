@@ -16,7 +16,7 @@ require_once 'inc/init.inc.php'
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <!-- CSS -->
-    <link rel="stylesheet" href="asset/style.css?v=3">
+    <link rel="stylesheet" href="asset/style.css?v=4">
     <link rel="stylesheet" href="asset/reset.css">
 
 </head>
@@ -50,7 +50,7 @@ require_once 'inc/init.inc.php'
 
     <?php require_once 'footer/footer.php'; ?>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=1"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
