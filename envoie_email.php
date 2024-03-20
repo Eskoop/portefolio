@@ -32,13 +32,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // $message = "Votre message a bien été envoyé.";
     } else {
         $message = "Une erreur s'est produite lors de l'envoi du message.";
+        header('Location: Contact.php');
     }
 
 }
 
 // if (!empty($message)) {
 //     echo "<script>alert('$message');</script>";
-//     header('Location: contact.php');
+//     
 // }
 
 ?>
