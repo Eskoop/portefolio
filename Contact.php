@@ -1,3 +1,11 @@
+<?php
+
+require_once 'inc/init.inc.php'
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,6 +25,7 @@
     <!-- nav -->
     <?php require_once 'Nav/nav.php'; ?>
     <main class="main-contact">
+        <?php echo $message; ?>
         <div class="contact">
             <form action="envoie_email.php" method="POST">
                 <div class="mb-3">
