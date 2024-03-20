@@ -242,7 +242,7 @@ header {
 
 }
 
-/* Footer */
+/******************************* FOOTER ***************************/
 
 footer {
     background-color: #000;
@@ -261,8 +261,8 @@ footer {
 
 }
 
-.footer-div div h3 {
-    font-size: 1.7em;
+.footer-sousdiv-1 h3 {
+    font-size: 2em;
 
 }
 
@@ -276,6 +276,7 @@ footer {
 }
 
 .footer-sousdiv-2 h3 {
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
@@ -298,13 +299,107 @@ footer {
 .copyright a{
     color: #FFF;
 }
+
+
+
+/************************** MEDIA QUERIES ***************************/
+
+
+
+/* Mediaqueries max 575 */
+
+@media screen and (max-width:575px) {
+    /* PREMIERE SECTION */
+    .section-1 div h1{
+        margin-top: 30px;
+    }
+
+    .sect-1-p1{
+        margin: 20px 0;
+    }
+
+    /* DEUXIEME SECTION */
+    .section-2 {
+        text-align: left;
+        margin: 0 15px 0 5px;
+    }
+    .div-1 {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .div-1 h3 {
+        font-size: 2em;
+    }
+    .btn-contact {
+        text-align: center;
+    }
+    .sous-div-2 h3{
+        text-align: left;
+    }
+    .competence {
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+        font-size: 1.6rem;
+        background: rgba(153, 153, 153, .2);
+        border-radius: 5px;
+        font-weight: 600;
+        color: #666;
+    }
+
+    /* TROISIEME SECTION*/
+
+    .section-3 h2{
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .section-3 .sect3-p1 {
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    .div-sect3{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        
+        
+    }
+    .ronde01 {
+        margin: 10px 0;
+    }
+    /******************** FOOTER ********************/
+
+    footer{
+        height: 265px;
+    }
+
+    .footer-div{
+        display: block;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .footer-sousdiv-1{
+        padding-left: 5px;
+    }
+    .footer-sousdiv-2 {
+        padding: 12px 0 0 5px;
+    }
+}
+
+
+/* Mediaqueries 991px */
 @media screen and (max-width:991px) {
     header {
         width: 100%;
         max-height: 100px;
         position: relative;
     }
-
+/* NAV */
     .navbar {
         padding: 0;
     }
@@ -369,3 +464,5 @@ footer {
 
 
 }
+
+

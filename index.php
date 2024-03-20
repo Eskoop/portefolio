@@ -24,8 +24,8 @@
     <section class="section-1">
       <div>
         <h1>Bonjour, je suis Hassan AKHTAR</h1>
-        <p>Je suis un developpeur web/web mobile full stack.</p>
-        <p class=""><a href="#project" class="btn btn-primary py-2 px-5">Projet</a></p>
+        <p class="sect-1-p1">Je suis un developpeur web/web mobile full stack.</p>
+        <p class="sect-1-p2"><a href="#project" class="btn btn-primary py-2 px-5">Projet</a></p>
       </div>
     </section>
 
@@ -38,9 +38,9 @@
         technologie
       </p>
       <div class="d-lg-flex div-1">
-        <div class="col-lg-6 mx-5">
-          <h3 class="mx-5 py-4">Pour me mieux me connaitre</h3>
-          <p class="mx-5">
+        <div class="col-lg-6 mx-lg-5">
+          <h3 class="mx-lg-5 py-4">Pour me mieux me connaitre</h3>
+          <p class="mx-lg-5">
             Je suis un Developpeur Web FullStack qui contruit des sites que ça
             soit en FrondEnd que en BackEnd. Découvez quelques-unes de mes
             réalisation dans la rubrique projets <br />
@@ -56,9 +56,9 @@
             contacter.
           </p>
 
-          <p class="mx-5"><a href="Contact.php" class="btn btn-primary btn-contact">CONTACT</a></p>
+          <p class="mx-lg-5 btn-contact"><a href="Contact.php" class="btn btn-primary ">CONTACT</a></p>
         </div>
-        <div class="col-lg-6 mx-5">
+        <div class="col-lg-6 mx-lg-5 sous-div-2">
           <h3 class="py-4">Mes compétences</h3>
           <div class="d-flex flex-wrap justify-content-center">
             <div class="competence">HTML</div>

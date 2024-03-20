@@ -1,10 +1,10 @@
 <footer class="">
     <div class="footer-div">
-      <div class="col-6 footer-sousdiv-1">
+      <div class="col-lg-6 footer-sousdiv-1">
         <h3>AKHTAR HASSAN</h4>
           <p>Donnez vie à vos projets numériques avec un développement web/web mobile pour vous propulser vers de nouveaux sommets sur Internet.</p>
       </div>
-      <div class="col-6 footer-sousdiv-2">
+      <div class="col-lg-6 footer-sousdiv-2">
 
         <!-- Partie social -->
         <h3>SOCIAL</h3>
